@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Test</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Audiometry Test</h1>
+    <button id="start-sound-test-btn">Start Sound Test</button>
+
+    <div id="popup" style="display: none;">
+        <p>Playing sound... Frequency: <span id="freq"></span> Hz, Decibel: <span id="db"></span> dB</p>
+    </div>
+    <centre>
+        <div id="response-section" style="display: none;">
+            <p>Are you able to hear the sound?</p>
+            <button id="yes-btn">Yes</button>
+            <button id="no-btn">No</button>
+        </div>
+    </centre>
+
+    <div id="result" style="display: none;">
+        <h2>Test Completed</h2>
+        <pre id="responses"></pre>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

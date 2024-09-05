@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Start Button */
+#start-sound-test-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#start-sound-test-btn:hover {
+    background-color: #45a049;
+}
+
+/* Popup Styles */
+#popup {
+    background-color: #26c0d4;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(103, 195, 248, 0.1);
+    text-align: center;
+}
+
+/* Response Section */
+#response-section {
+    margin: 20px 0;
+}
+
+#response-section p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#yes-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#no-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+#yes-btn:hover {
+    background-color: #45a049;
+}
+
+#no-btn:hover {
+    background-color: #e53935;
+}
+
+/* Result Section */
+#result {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#result h2 {
+    color: #333;
+}
+
+#responses {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap; /* Maintain whitespace formatting */
+    color: #333;
+}

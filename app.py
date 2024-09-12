@@ -125,6 +125,7 @@ def play_next_sound():
         }), 200
     else:
         # Test completed
+        print("Test Completed\n",user_responses)
         return jsonify({
             "message": "Test completed",
             "responses": user_responses
